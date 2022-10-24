@@ -128,8 +128,7 @@ function generateListItems(arg) {
 
 //prendo il contenitore
 document.getElementById("container").innerHTML = `
-<ol>
     ${generateListItems(posts)};
-</ol>
 `
 
+//MILESTONE 3 //
